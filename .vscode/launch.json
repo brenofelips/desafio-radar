@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DesafioRadarApplication<desafio-radar>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "br.com.desafio_radar.DesafioRadarApplication",
+      "projectName": "desafio-radar",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
