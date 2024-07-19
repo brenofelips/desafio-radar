@@ -85,6 +85,7 @@ const PersonList: React.FC<PersonListProps> = ({ onEdit }) => {
 
   const width = { width: 500 }
   const marginLeft = { marginLeft: "20px" }
+  const data = persons.sort((a, b) => (b.id - a.id));
 
   return (
     <div style={{ marginTop: 30 }}>
@@ -102,10 +103,10 @@ const PersonList: React.FC<PersonListProps> = ({ onEdit }) => {
       </Form>
      
       <Table
-        columns={columns}
-        dataSource={persons}
-        loading={loading}
         rowKey="id"
+        columns={columns}
+        dataSource={data}
+        loading={loading}
         pagination={{ pageSize: 5 }}
       />
     </div>
