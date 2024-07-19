@@ -15,7 +15,7 @@
 
   # Docker
   cd postgres-docker
-  docker-compose up -d
+  docker-compose up
 
   # Backend
   cd desafio-radar-backend
