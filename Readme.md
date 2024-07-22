@@ -29,7 +29,7 @@
 
 ```bash
 Java -> 17.0.12
-Doker -> 26.1.4
+Docker -> 26.1.4
 React -> 18.3.1
 Antd -> 5.19.2 
 ```
